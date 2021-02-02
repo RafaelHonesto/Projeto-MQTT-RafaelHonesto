@@ -51,15 +51,19 @@ void setup() {
 void loop() { 
 mqttClient.connect("rafaelhonesto");
 
-    estado_sensor = digitalRead(pino2);
+//Muda a variavel "estado do sensor" para a resposta obtida atravez do digitalRead
+ estado_sensor = digitalRead(pino2); 
 
+//As respostas que podem ser obtidas atravez desta variavel booleana são somente duas: 1 ou 0/ True or false   
+   
+//Se o estado do sensor for igual a 1 a variavel mensagem vai armazenar uma resposta e exibir com Serial.println
     if(estado_sensor == 1 ){
-         mensagem = mqttClient.publish("sala11", "A porta esta aberta");
+         mensagem = mqttClient.publish("sala11", "A porta esta aberta");  
         Serial.println(mensagem);
     }
-  
+  // Se o estado do sensor for igual a 0 a variavel mensagem vai armazenar outra resposta e exibir com Serial.println
    else{
-        mensagem = mqttClient.publish("sala11", "A porta esta fechada");
+        mensagem = mqttClient.publish("sala11", "A porta esta fechada"); 
         Serial.println(mensagem);
     }
 
