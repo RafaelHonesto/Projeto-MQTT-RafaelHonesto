@@ -32,4 +32,6 @@ No Arduino as bibliotecas são trechos de softwere utilizados para funções esp
 
 **Autor: Rafael Honesto.**
 
-<img alt="Instagram" src="https://www.instagram.com/rafaelhonesto/img.shields.io/badge/<handle>%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-black?style=flat-square&logo=Instagram&logoColoer-white&link=https://www.instagram.com/rafaelhonesto/)](https://www.instagram.com/rafaelhonesto/)
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-black?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafael-costa-c-honesto-3b46b2205/)](https://www.linkedin.com/in/rafael-costa-c-honesto-3b46b2205/)
