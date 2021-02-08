@@ -60,11 +60,13 @@ mqttClient.connect("rafaelhonesto");
     if(estado_sensor == 1 ){
          mensagem = mqttClient.publish("sala11", "A porta esta aberta");  
         Serial.println(mensagem);
+        Serial.println("A porta esta aberta");
     }
   // Se o estado do sensor for igual a 0 a variavel mensagem vai armazenar outra resposta e exibir com Serial.println
    else{
         mensagem = mqttClient.publish("sala11", "A porta esta fechada"); 
         Serial.println(mensagem);
+        Serial.println("A porta esta fechada");
     }
 
 
