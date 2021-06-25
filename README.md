@@ -3,7 +3,7 @@ Repositório criado para o projeto desenvolvido durante a Sprint 8 do Curso Téc
 
 # Objetivo:
 
-O objetivo do projeto é fazer uma ferramenta de alerta e monitoramento utilizando um [Arduino Uno](https://www.arduino.cc/) e um sensor Magnético para o monitoramento da porta de um RACK de rede, desta forma tendo um retorno remoto do estado da porta que pode ser *Aberto* ou *Fechado*. Essa informação é enviada pela internet utilizando o protocolo [MQTT](https://mqtt.org/) (Message Queuing Telemetry Transport) para um outro servidor hospedado na **AWS** (*Amazon Web Service*) que exibe a mensagem no aplicativo para SmartPhone [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=pt_BR&gl=US) conforme a imagem e anexo:
+O objetivo do projeto é fazer uma ferramenta de alerta e monitoramento utilizando um [Arduino Uno](https://www.arduino.cc/) e um sensor Magnético para o monitoramento da porta de um RACK de rede, desta forma tendo um retorno remoto do estado da porta que pode ser *Aberto* ou *Fechado*. Essa informação é enviada pela internet utilizando o protocolo [MQTT](https://mqtt.org/) (Message Queuing Telemetry Transport) para um outro servidor hospedado na **AWS** (*Amazon Web Service*) que exibe a mensagem no aplicativo para SmartPhone [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=pt_BR&gl=US) conforme a imagem em anexo:
 
 
 ![Topologia lógica do projeto](https://user-images.githubusercontent.com/73251227/106644250-9fafc480-6569-11eb-81d9-82ff9a5cc126.PNG)
